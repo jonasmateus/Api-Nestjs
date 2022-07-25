@@ -1,7 +1,15 @@
-# Awesome Project Build with TypeORM
 
-Steps to run this project:
+# Como executar o projeto
+IMPORTANTE 
+Não consegui ver os dados na tabela que criei no Reilway, mesmo conseguindo conectar com sucesso os dados não apareciam.
+Por isso vou passar as instruçõs para rodar o projeto com banco local mesmo.
 
-1. Run `npm i` command
-2. Setup database settings inside `data-source.ts` file
-3. Run `npm start` command
+REQUESITO
+Instale o `PostgreSQL` localmente
+
+1. Crie um banco no postgres chamado `cargon_test`
+1. Na raiz do projeto rode `npm i`
+2. typeorm migration:create ./src/migration
+2. Rode `npm start`
+
+PODE ENTRAR E CONTATO COMIGO EM UMA CALL CASO TENHA PROBLEMAS

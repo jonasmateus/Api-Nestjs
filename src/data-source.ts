@@ -10,10 +10,10 @@ export const AppDataSource = new DataSource({
     port: Number(process.env.DB_PORT),
     username: process.env.DB_USER_NAME,
     password: process.env.DB_PASSWORD,
-    database: process.env.DB,
+    database: process.env.DB_NAME,
     synchronize: true,
     logging: false,
     entities: ["src/entity/*.ts"],
-    migrations: [],
+    migrations: ["src/migrations/*.ts"],
     subscribers: [],
 })
