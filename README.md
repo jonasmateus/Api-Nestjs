@@ -9,7 +9,7 @@ Instale o `PostgreSQL` localmente
 
 1. Crie um banco no postgres chamado `cargon_test`
 1. Na raiz do projeto rode `npm i`
-2. Execute a migration `xtypeorm migration:create ./src/migration`
+2. Execute a migration `typeorm migration:create ./src/migration`
 2. Por último `npm start`
 
 PODE ENTRAR E CONTATO COMIGO EM UMA CALL CASO TENHA PROBLEMAS
