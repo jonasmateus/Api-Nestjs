@@ -12,4 +12,4 @@ Instale o `PostgreSQL` localmente
 2. typeorm migration:create ./src/migration
 2. Rode `npm start`
 
-
+PODE ENTRAR E CONTATO COMIGO EM UMA CALL CASO TENHA PROBLEMAS
